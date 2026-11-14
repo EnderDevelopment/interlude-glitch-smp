@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "riftglitch",
+  "version": "1.0.0",
+  "name": "Rift Glitch SMP",
+  "description": "Opt-in rotating simulation anomalies for survival servers.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.enderdevelopment.riftglitch.RiftGlitchMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
